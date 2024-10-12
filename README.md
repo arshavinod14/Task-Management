@@ -13,16 +13,26 @@ This project provides a task management API that allows users to create, retriev
 1.Clone Repository
  - git clone https://github.com/arshavinod14/Task-Management
  - navigate to the project directory
+
+   
 2.Create Virtual Environment
  - python -m venv venv
  - activate - venv\Scripts\activate
+
+   
 3.Install Dependencies
  - pip install -r requirements.txt
+
+
 4.Database Setup
  - CREATE DATABASE task_management;
  - Update the DATABASES section in your settings.py file with your database credentials.
+
+
 5.Run Migrations
  - python manage.py migrate
+
+   
 6.Create Superuser
  - python manage.py createsuperuser
 
@@ -34,6 +44,8 @@ Run Server
 - PostgreSQL
 
 Base URL - http://localhost:8000/api/ 
+
+
 Authentication  - JWT
 obtain a token by sending a post request to /api/auth/login - with usernamea and password
 
